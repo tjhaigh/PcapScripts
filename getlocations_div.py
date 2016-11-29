@@ -3,7 +3,7 @@ from urllib.error import HTTPError
 from time import sleep
 import threading
 
-apikey = '6f3d4a0fa879cf800c3e37bfa8bfc2731642249a503bb8d62089488f3382bf78'
+apikey = '<my api key>'
 
 outbase = 'locations_part'
 inbase = 'ips_split'

@@ -22,7 +22,14 @@ The pcap files were split into 2 folders.  distinct.py was run on those two fold
 ### get_camera_traffic.py
 This was used to filter the traffic down to just packets involving the IP Camera. This script can be modified to filter by any IP and MAC
 
+### get_ports.py
+Gets the source and destination ports for each IP address. Used to get an idea of which ports were used on the devices.
+
+### get_protocols.py
+Gets the protocols of each packet and returns a count for that protocol.
+
 ### getlocations_div.py
 The IPs were split into several files and this script pulled in data from one file at a time and got the locations. The data was split up so that if any issues happened during execution, not all progress would be lost.
 
-  
+### splitfile.py
+Splits the IP address file into separate files for further processing
